@@ -20,8 +20,6 @@ $article-bg-color: hsl(35, 36%, 95%);
 $background-color: darken($article-bg-color, 6%);
 $bg-color-darker:  darken($article-bg-color, 15%);
 $alt-text-color:   darken($article-bg-color, 60%);
-
-$subdued-border:   rgba($bg-color-darker, 0.5);
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
